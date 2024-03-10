@@ -1,0 +1,14 @@
+
+
+.as:hover::after {
+    width: 50px;
+    left: 17px;
+}
+.as::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .2s;
+}

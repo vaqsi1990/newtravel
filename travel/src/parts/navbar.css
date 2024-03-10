@@ -1,0 +1,13 @@
+.bor {
+    border-bottom: 2px solid white !important ; 
+  
+    padding: 0.5rem 1rem !important; 
+  }
+
+.bor:hover{
+    color: black !important;
+    border-bottom: 2px solid black !important ; 
+}
+.bb:hover {
+    color: black !important;
+}

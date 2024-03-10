@@ -1,0 +1,45 @@
+
+
+.llll:hover::after {
+    width: 50px;
+    left: 17px;
+}
+.llll::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .2s;
+}
+
+.shadow {
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.overlay-post-three {
+    position: relative;
+}
+.overlay-post-four .overlay-post-thumb-three {
+    border-radius: 6px;
+}
+
+.es {
+    top: 35% !important;
+}
+
+.card-title {
+    margin-top: 0px;
+    font-weight: 500 !important;
+    font-size: 1.40em !important;
+    color: black !important;
+}
+
+.ds{
+    font-size: 1em !important;
+}
+
+.ds:hover{
+text-decoration: underline;
+}

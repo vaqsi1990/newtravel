@@ -1,0 +1,15 @@
+{
+    "buildCommand": "cd travel && npm install && ./node_modules/vite/bin/vite.js build",
+    "outputDirectory": "travel/dist",
+    "framework": "vite",
+    "rewrites": [
+      {
+        "source": "/backend/(.*)",
+        "destination": "/backend/api.js"
+      },
+      {"source": "/(.*)", "destination": "/"}
+    ]
+  }
+
+
+  
